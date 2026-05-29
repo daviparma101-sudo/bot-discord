@@ -1,0 +1,1 @@
+comandos = ["$hello, $bye, $coin, $pass, $comandos"]
