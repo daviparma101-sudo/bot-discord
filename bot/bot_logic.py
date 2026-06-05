@@ -1,6 +1,6 @@
 import random
 def gen_pass(pass_length):
-    elements = "+-/*!&$#?=@<>"
+    elements = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789_*!&$#@"
     password = ""
     for i in range(pass_length):
         password += random.choice(elements)
@@ -9,6 +9,6 @@ def gen_pass(pass_length):
 def flip_coin():
     flip = random.randint(0, 2)
     if flip == 0:
-        return "cara"
+        return "O lado da moeda que caiu é cara"
     else:
-        return "coroa"
+        return "O lado da moeda que caiu é coroa"
